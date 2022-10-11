@@ -41,7 +41,7 @@ class LoginPage extends StatelessWidget {
                   height: 50,
                   width: 120,
                   decoration: BoxDecoration(
-                    color: Colors.blue,
+                    color: Colors.green.shade300,
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: const Center(
@@ -57,7 +57,7 @@ class LoginPage extends StatelessWidget {
                 height: 50,
                 width: 300,
                 decoration: BoxDecoration(
-                  color: Colors.blue,
+                  color: Colors.green.shade300,
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: const Center(
@@ -99,7 +99,6 @@ class Textfield extends StatelessWidget {
         decoration: InputDecoration(
           border: InputBorder.none,
           hintText: text,
-          
         ),
       ),
     );
