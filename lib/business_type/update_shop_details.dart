@@ -1,7 +1,6 @@
 import 'package:demoappsquiso/login/login.dart';
 import 'package:flutter/material.dart';
 
-
 class UpdateShopDetails extends StatelessWidget {
   const UpdateShopDetails({super.key});
 
@@ -19,11 +18,11 @@ class UpdateShopDetails extends StatelessWidget {
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
             )),
             const SizedBox(height: 60),
-           Textfield(text: 'Open Time'),
+            Textfield(text: 'Open Time'),
             const SizedBox(height: 20),
             Textfield(text: 'Open Time'),
             const SizedBox(height: 20),
-          Textfield(text: 'Google Location'),
+            Textfield(text: 'Google Location'),
           ],
         ),
       ),
