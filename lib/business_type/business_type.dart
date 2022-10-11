@@ -57,6 +57,7 @@ class BusinessType extends StatelessWidget {
   }
 }
 
+// ignore: must_be_immutable
 class TypeOfBusiness extends StatelessWidget {
   String text;
   Function() function;

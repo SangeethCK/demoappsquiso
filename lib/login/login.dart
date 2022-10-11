@@ -35,7 +35,7 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 20),
               InkWell(
                 onTap: () {
-                  Get.to(() => BusinessType());
+                  Get.to(() => const BusinessType());
                 },
                 child: Container(
                   height: 50,
@@ -75,6 +75,7 @@ class LoginPage extends StatelessWidget {
   }
 }
 
+// ignore: must_be_immutable
 class Textfield extends StatelessWidget {
   String text;
   Textfield({Key? key, required this.text})
