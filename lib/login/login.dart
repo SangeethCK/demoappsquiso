@@ -98,10 +98,8 @@ class Textfield extends StatelessWidget {
       child: TextField(
         decoration: InputDecoration(
           border: InputBorder.none,
-          label: Text(
-            text,
-            style: const TextStyle(color: Colors.black),
-          ),
+          hintText: text,
+          
         ),
       ),
     );
